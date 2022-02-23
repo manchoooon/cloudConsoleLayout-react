@@ -1,0 +1,52 @@
+.navbar {
+  height: 48px;
+  z-index: 1050;
+  box-shadow: 0 3px 4px 0 rgb(0 0 0 / 20%), 0 3px 3px -2px rgb(0 0 0 / 14%), 0 1px 8px 0 rgb(0 0 0 / 12%);
+}
+
+.navbar-dark .navbar-toggler {
+  color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.offcanvas {
+  width: 292px;
+}
+
+.offcanvas-body {
+  margin-top: 48px;
+  padding: 0;
+}
+
+.side-menu-list a:hover {
+  background: rgba(0,0,0,.08);
+}
+
+.container {
+  margin: 0;
+  padding: 0 12px;
+}
+
+.content-container {
+  top: 48px;
+}
+
+.content {
+  float: right;
+  position: relative;
+  width: calc(100% - 256px);
+}
+
+@media screen and (max-width: 768px) {
+  .menu-list {
+    display: none;
+  }
+
+  .sub-menu {
+    width: 100%;
+  }
+
+  .content {
+    width: 100%;
+  }
+}

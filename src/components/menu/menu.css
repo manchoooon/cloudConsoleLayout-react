@@ -1,0 +1,11 @@
+.menu-list {
+  width: 256px;
+}
+
+.menu-list .menu {
+  height: 48px;
+}
+
+.menu-list .menu .logo-img {
+  width: 34px;
+}
